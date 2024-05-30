@@ -1,7 +1,11 @@
+import Link from "next/link";
+
 const Logo = () => {
   return (
     <div>
-      <p className=" font-bold text-xl">Samir.Dev</p>
+      <Link href={"/"} className=" font-bold text-xl">
+        Samir.Dev
+      </Link>
     </div>
   );
 };
