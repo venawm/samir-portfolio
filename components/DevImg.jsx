@@ -1,12 +1,12 @@
 import Image from "next/image";
 import React from "react";
 
-const DevImg = ({ containerStyles, imgSrc }) => {
+const DevImg = ({ containerStyles, imgSrc, imgClass }) => {
   return (
     <div className={containerStyles}>
       <Image
         src={imgSrc}
-        className="absolute left-[-20px] top-[40px]"
+        className={imgClass}
         width={500}
         height={500}
         priority

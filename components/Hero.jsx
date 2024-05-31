@@ -66,7 +66,7 @@ const Hero = () => {
             {/* second */}
             <Badge
               containerStyles="absolute top-[80%] -left-[1rem]"
-              icon={<RiBriefcase4Fill />}
+              icon={<RiTodoFill />}
               endCountNum={3}
               badgeText={"Projects"}
             />
@@ -74,6 +74,7 @@ const Hero = () => {
             <DevImg
               containerStyles="bg-hero_shape2_dark w-[510px] h-[482px] bg-no-repeat relative bg-bottom "
               imgSrc="/developer/dev.png"
+              imgClass="absolute left-[-20px] top-[40px]"
             />
           </div>
         </div>

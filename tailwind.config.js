@@ -76,6 +76,7 @@ module.exports = {
         hero_shape: "url(/bg/shape-2-dark.svg)",
         hero_shape2_light: "url(/bg/shape-2-light.svg)",
         hero_shape2_dark: "url(/bg/shape-1.svg)",
+        dots: "url(/dots/dots-dark.svg)",
       },
     },
   },
