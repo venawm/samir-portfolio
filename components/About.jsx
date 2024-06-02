@@ -84,8 +84,8 @@ const About = () => {
     return arr.find((item) => item.title === title);
   };
   return (
-    <section className="xl:h-[860px] mt-24 py-12 xl:py-24 ">
-      <div className="container mx-auto">
+    <section class="xl:h-[860px] mt-24 py-12">
+      <div className="container mx-auto mt-12  xl:mt0">
         <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto">
           About Me
         </h2>
