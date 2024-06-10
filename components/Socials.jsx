@@ -13,11 +13,11 @@ import Link from "next/link";
 
 const icons = [
   {
-    path: "/",
+    path: "https://www.linkedin.com/in/samir-pandey-330222201/",
     name: <RiLinkedinFill className="hover:text-blue-600" />,
   },
   {
-    path: "/",
+    path: "https://github.com/venawm",
     name: <RiGithubFill className="hover:text-blue-900" />,
   },
   {
@@ -25,11 +25,11 @@ const icons = [
     name: <RiFacebookFill className="hover:text-blue-600" />,
   },
   {
-    path: "/",
+    path: "https://www.instagram.com/pandesamir3/",
     name: <RiInstagramFill className="hover:text-pink-600" />,
   },
   {
-    path: "/",
+    path: "https://stackoverflow.com/users/18856385/samir-pandey",
     name: <RiStackOverflowFill className="hover:text-orange-500" />,
   },
 ];

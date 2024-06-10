@@ -39,7 +39,7 @@ const Hero = () => {
                   Contact Me <Send size={18} />
                 </Button>
               </Link>
-              <Link href={"/hero-naban"}>
+              <Link href={"/resume/SamirResume.pdf"}>
                 <Button
                   variant="outline"
                   className="gap-x-2 shadow-sm
@@ -67,7 +67,7 @@ const Hero = () => {
             <Badge
               containerStyles="absolute top-[80%] -left-[1rem]"
               icon={<RiTodoFill />}
-              endCountNum={3}
+              endCountNum={29}
               badgeText={"Projects"}
             />
             <div className="bg-hero_shape2_light w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2 "></div>
