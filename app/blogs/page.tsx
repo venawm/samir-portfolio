@@ -124,7 +124,7 @@ export default async function BlogPage() {
   return (
     <div className="container mx-auto px-4 py-16 text-gray-900 dark:text-gray-100 bg-white dark:bg-zinc-950 min-h-screen">
       {/* Added max-w-3xl for better readability on wide screens */}
-      <div className="max-w-3xl mx-auto">
+      <div className="max-w-5xl mx-auto">
         <h1 className="text-4xl font-semibold tracking-tight mb-12 text-black dark:text-white">
           {" "}
           {/* Slightly larger title */}
